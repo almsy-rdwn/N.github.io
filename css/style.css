@@ -1,0 +1,136 @@
+.body{
+    background-color: black;
+}
+    
+.main {
+    background-color: rgb(255, 255, 255);
+    text-decoration-color: aliceblue;
+    left: 100px;
+    top: 300px;
+    position: absolute;
+    margin: 30px;
+    border-radius: 10px;
+    border-right: 2000px;
+    font-style: italic;
+    width: 300px;
+    padding-right: 10px;
+    box-shadow: 20px 20px 20px 20px #000000;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.video {
+    height: 100vh;
+    width: 100%;
+}
+.video video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+.menu {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    z-index: 100;
+    top: 0px;
+    position: fixed;
+    height: 100%;
+    width: 80px;
+    animation: fadeOut 1s;
+    animation-delay: 7s;
+    opacity: 0;
+    animation-fill-mode:forwards;
+}
+@keyframes fadeOut {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.menu .wa{
+    position: fixed;
+    top: 200px;
+} 
+.menu .hm {
+    position: fixed;
+    height: 40px;
+    top: 100px;}
+.menu .gh {
+    position: fixed;
+    height: 40px;
+    top: 300px;
+}
+.menu .ig {
+    position: fixed;
+    height: 40px;
+    top: 400px;
+}
+
+.menu img{
+    height: 40px;
+}
+.jam {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    z-index: 3;
+    top: 100px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    left: 130px;
+    top: 500px;
+    font-style: italic;
+
+
+}
+.kopikuning {
+    z-index: 45;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0);
+    margin: 5px;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    top: 95vh;
+    left: 80vh;
+    text-align: center;
+
+}
+.latar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 99;
+    animation: fadeIn 1s;
+    animation-delay: 7s;
+    opacity: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
+.N {
+    position: fixed;
+    background-color: white;
+    margin: 0;
+    height: 20px;
+    width: 100%;
+    top: 0px;
+    text-align: center;
+
+}
+.menu .idff {
+    position: fixed;
+    top: 500px;
+    
+}
+
+
+
+
+ 
+
